@@ -1,4 +1,7 @@
+
+
 .jumbotron {
+
     background-image: url(../images/Jumbo.jpg);
     background-size: cover;
     background-position: center;
@@ -9,6 +12,26 @@
     background-color: rgba(255, 255, 255, 0.316);
     padding: 16px;
 }
+.jumboFlex {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.lead {
+    font-weight: 400;
+}
+#mug {
+    
+    /* justify-content: end; */
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    background-image: url(../images/My_Mug.jpg);
+    background-size: cover;
+    background-position: 80% 60%;
+    background-repeat: no-repeat;
+}
+
 .modal-content {
     background-image: url(../images/Modal.jpg);
     background-size:cover;
