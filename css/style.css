@@ -1,12 +1,3 @@
-* {
-    text-decoration: none !important;
-    color: black !important;
-}
-.bg-secondary {
-    background-color: rgb(179, 179, 179) !important;
-    border: black solid 2px;
-}
-
 header {
     position: fixed;
     z-index: 11;
@@ -14,7 +5,7 @@ header {
 
 .jumbotron {
 
-    background-image: url(../images/Jumbo.jpg);
+    background-image: url(../images/Waves.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,8 +49,8 @@ header {
 
 .card {
     margin-bottom: 25px;
-    /* background-color: rgb(199, 199, 199); */
-    /* border: black solid 2px; */
+    background-color: rgb(199, 199, 199);
+    border: black solid 2px;
     border-radius: 0 0 20px 20px;
     transition: all 0.6s;
 }
@@ -67,4 +58,10 @@ header {
 .card:hover {
     transform: scale(1.05);
 
+}
+.port1 {
+    height: 450px;
+}
+.port2 {
+    height:300px;
 }

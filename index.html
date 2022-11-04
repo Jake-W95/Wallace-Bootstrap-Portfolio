@@ -65,47 +65,48 @@
 
     <div class="container" id="myWork">
         <h3>My Work</h3>
-        <div class="row">
+        <section class="row">
 
-            <div class="col-md">
-                <a href="https://jake-w95.github.io/Prework-Study-Guide/">
-                    <div class="card bg-secondary h-75" style="width: 18rem;">
-
-                        <img src="https://s3.amazonaws.com/70.west.church.of.christ/wp-content/uploads/2020/06/woman-surfing-internet-at-coffee-shop.jpg"
-                            class="card-img-top" alt="study Guide">
-                        <div class="card-body">
-                            <p class="card-text">Pre-work Study Guide.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md">
-                <a href=" https://jake-w95.github.io/Wallace-J-Portfolio-2022/">
-                    <div class="card bg-secondary h-75" style="width: 18rem;">
-                        <img src="https://www.thebalancemoney.com/thmb/7JZrLki8IcIcC7p7VlFmV8Jv418=/6000x4000/filters:fill(auto,1)/portfolio-175431947-5ad433371f4e13003890fcdc.jpg"
-                            class="card-img-top" alt="Portfolio">
-                        <div class="card-body">
-                            <p class="card-text">Webpage Portfolio (no Bootstrap)</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md">
-                <div class="card bg-secondary h-75" style="width: 18rem;">
-                    <img src="./images/BBE Logo.jpg" class="card-img-top h-75" alt="Billy's_Bike_Exchange">
+            <div class="col-lg-12 ">
+                <div class="card" >
+                    <a href="https://jake-w95.github.io/Prework-Study-Guide/"></a>
+                    <img src="./images/02-portfolio-1.jpg" class="card-img-top port1" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Billy's Bike Exchange (Coming Soon)</p>
+                        <p class="card-text">Pre-work Study Guide.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+
+        <section class="row">
+
+            <div class="col-lg-6 w-100">
+                <div class="card" >
+                    <img src="./images/Horiseon.jpg" class="card-img-top port2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Horiseon Landing Page.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 w-100">
+                <div class="card">
+                    <img src="./images/02-portfolio-2.jpg" class="card-img-top port2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
 
         <div class="row">
             <div class="col-md">
-                <div class="card bg-secondary" style="width: 18rem;">
-                    <img src="./images/My_Mug.jpg" class="card-img-top" alt="...">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/02-portfolio-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
@@ -113,7 +114,7 @@
                 </div>
             </div>
             <div class="col-md">
-                <div class="card bg-secondary " style="width: 18rem;">
+                <div class="card" style="width: 18rem;">
                     <img src="./images/Modal.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -122,7 +123,7 @@
                 </div>
             </div>
             <div class="col-md">
-                <div class="card bg-secondary" style="width: 18rem;">
+                <div class="card" style="width: 18rem;">
                     <img src="./images/Jumbo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -133,10 +134,99 @@
         </div>
     </div>
 
+    <div class="container col-md-6 mb-4" id="contact">
+        <form>
+            <div class="form-group">
+                <label for="Surname">Your Surname</label>
+                <input type="name" class="form-control" id="exampleInputSurname" aria-describedby="SurnameHelp"
+                    placeholder="Surname">
+            </div>
+            <div class="form-group">
+                <label for="Forename">Your Forename</label>
+                <input type="name" class="form-control" id="exampleInputForename" aria-describedby="ForenameHelp"
+                    placeholder="Forname">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <!-- <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 
 
 
-    <form class="col-md-4 bg-secondary ml-3 mb-2">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Wallace Dev</title>
+</head>
+
+<header id="header">
+    <section class="row waves">
+        <h1 class="col-9">Jake Wallace Development</h1>
+        <nav class="row col-3">
+            <a href="#" class="navItem mr-4">About</a>
+            <a href="#" class="navItem mr-4">My Work</a>
+            <a href="#" class="navItem mr-4">Contact</a>
+        </nav>
+    </section>
+
+    <section>
+        <div class="jumbotron">
+            <div class="row">
+            <h1 class="display-4">About Me:</h1>
+            
+
+
+        </div>
+            <p class="lead">My name is Jake, I'm a web developer .<br>
+                My extensive career spans over two entire weeks, in that time I've worked on hundreds of projects, for large
+                companies, small businesses or those just starting out on their journey! <br>
+                My passion for design will mean I'll create the perfect webpage for you and your business, be you a musician,
+                pharmaceutical megacorporation or somebody who mends vintage radios, I'll get you what you need in terms of a
+                site that speaks to who you are and what you're all about!</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+    </section>
+
+</header>
+ -->
+
+<!-- <form class="col-md-4 bg-secondary ml-3 mb-2">
         <div class="form-group">
             <label for="Surname">Your Surname</label>
             <input type="name" class="form-control" id="exampleInputSurname" aria-describedby="SurnameHelp"
@@ -156,26 +246,26 @@
         </div>
         <input class="btn btn-primary" type="submit" value="Submit">
 
-    </form>
-    </div>
+    </form> -->
+</div>
 
-    </div>
-
-
+</div>
 
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
