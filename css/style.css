@@ -1,3 +1,7 @@
+body {
+    background-color: #b1cdff ;
+}
+
 header {
     position: fixed;
     z-index: 11;
@@ -5,7 +9,7 @@ header {
 
 .jumbotron {
 
-    background-image: url(../images/Jumbo.jpg);
+    background-image: url(../images/Waves.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +40,8 @@ header {
 }
 
 #intro {
-    background-color: rgba(255, 255, 255, 0.53);
+    /* background-color: rgba(255, 255, 255, 0.53); */
+    background-color: rgba(177, 206, 255, 0.563);
     padding: 16px;
 }
 #introTop {
@@ -59,3 +64,16 @@ header {
     transform: scale(1.05);
 
 }
+.port1 {
+    height: 450px;
+}
+.port2 {
+    height:380px;
+}
+.port3 {
+    height: 250px;
+}
+
+/* @media screen {
+    
+} */
