@@ -27,15 +27,16 @@ header {
     /* justify-content: end; */
     /* width: 250px; */
     height: 400px;
+    width: 400px;
     padding: 5px;
     background-image: url(../images/My_Mug.jpg);
-    background-size: contain;
-    background-position: 80% 60%;
+    background-size: cover;
+    background-position: 0 100%;
     background-repeat: no-repeat;
 }
 
 #intro {
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.53);
     padding: 16px;
 }
 #introTop {
