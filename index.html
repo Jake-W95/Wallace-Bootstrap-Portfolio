@@ -25,10 +25,10 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Work</a>
+                        <a class="nav-link" href="#myWork">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -37,47 +37,125 @@
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">About</a>
-                            <a class="dropdown-item" href="#">My Work</a>
+                            <a class="dropdown-item" href="#myWork">My Work</a>
                             <a class="dropdown-item" href="#">Contact</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
+    </header>
 
-        <section class="jumbotron">
-            <div class="jumboCopy">
-                <h1 class="display-4">Jake Wallace: Front-end Web Developer</h1>
-                <p class="lead"></p>View my previous work, contact me and
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.
-                </p>
-                <a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">About Me</a>
+    <section class="jumbotron" b>
 
-                <Section class="modal" id="exampleModal" tabindex="-1">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Modal title</h5>
+        <div class="container " id="intro">
+            <div id="introTop">
+                <h1 class="display-3 col-md-7">Jake Wallace: <br> Front-End Web Developer </h1>
+                <div class="col-md-5 rounded" id="mug"></div>
+            </div>
+            <p class="lead row mt-4 m-4" id="introText">My name is Jake Wallace, I'm a front-end web developer from Bristol,
+                UK. Here you can see a selection of sites I've worked on in the past and get in touch with me with any
+                enquiries you might have!</p>
+        </div>
 
-                            </div>
-                            <div class="modal-body">
-                                <p>Modal body text goes here.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                            </div>
-                        </div>
+        <hr class="my-4">
+
+    </section>
+
+    <div class="container" id="myWork">
+        <h3>My Work</h3>
+        <div class="row">
+
+            <div class="col-md">
+                <div class="card " style="width: 18rem;">
+                    <a href="https://jake-w95.github.io/Prework-Study-Guide/"></a>
+                    <img src="./images/My_Mug.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Pre-work Study Guide.</p>
                     </div>
-                </Section>
+                </div>
+            </div>
+            
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Modal.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
             </div>
 
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Jumbo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        </section>
+        <div class="row">
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/My_Mug.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Modal.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Jumbo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="container col-md-6 mb-4" id="contact">
+        <form>
+            <div class="form-group">
+                <label for="Surname">Your Surname</label>
+                <input type="name" class="form-control" id="exampleInputSurname" aria-describedby="SurnameHelp"
+                    placeholder="Surname">
+            </div>
+            <div class="form-group">
+                <label for="Forename">Your Forename</label>
+                <input type="name" class="form-control" id="exampleInputForename" aria-describedby="ForenameHelp"
+                    placeholder="Forname">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <!-- <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 
-    </header>
 
 
 

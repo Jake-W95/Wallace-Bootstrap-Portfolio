@@ -1,17 +1,61 @@
+header {
+    position: fixed;
+    z-index: 11;
+}
+
 .jumbotron {
+
     background-image: url(../images/Jumbo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.jumboCopy {
-    /* font-weight:bolder; */
-    background-color: rgba(255, 255, 255, 0.316);
+
+
+
+/* .jumboFlex {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between; */
+/* } */
+.lead {
+    font-weight: 400;
+}
+
+#mug {
+
+    /* justify-content: end; */
+    /* width: 250px; */
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+    background-image: url(../images/My_Mug.jpg);
+    background-size: cover;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+
+#intro {
+    background-color: rgba(255, 255, 255, 0.53);
     padding: 16px;
 }
-.modal-content {
-    background-image: url(../images/Modal.jpg);
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+#introTop {
+    display: flex;
+}
+#introText {
+    
+    font-weight: 400;
+}
+
+.card {
+    margin-bottom: 25px;
+    background-color: rgb(199, 199, 199);
+    border: black solid 2px;
+    border-radius: 0 0 20px 20px;
+    transition: all 0.6s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+
 }
