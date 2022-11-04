@@ -1,5 +1,6 @@
 body {
     background-color: #b1cdff ;
+    color: black;
 }
 
 header {
@@ -44,9 +45,7 @@ header {
     background-color: rgba(177, 206, 255, 0.563);
     padding: 16px;
 }
-#introTop {
-    display: flex;
-}
+
 #introText {
     
     font-weight: 400;
@@ -73,6 +72,19 @@ header {
 .port3 {
     height: 250px;
 }
+footer{
+    
+    background: url(../images/Waves.jpg)  bottom ;
+    background-size: cover;
+    height: 150px !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+
 
 /* @media screen {
     
