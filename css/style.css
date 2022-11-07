@@ -59,13 +59,13 @@ header {
 .card:hover {
     transform: scale(1.05);
 }
+
 .card:hover .card-title {
     display: none;
 }
 .card:hover .card-main {
     display: block;
-    
-}
+    }
 .card-main {
     display: none;
 }
@@ -88,6 +88,9 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+footer div ul li a:hover{
+    font-size: 130%;
 }
 a {
     text-decoration: none;
