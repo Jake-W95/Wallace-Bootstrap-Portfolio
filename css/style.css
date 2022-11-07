@@ -18,19 +18,14 @@ header {
 
 
 
-/* .jumboFlex {
-    margin: 0 50px;
-    display: flex;
-    justify-content: space-between; */
-/* } */
+
 .lead {
     font-weight: 400;
 }
 
 #mug {
 
-    /* justify-content: end; */
-    /* width: 250px; */
+    
     height: 400px;
     width: 400px;
     padding: 5px;
@@ -41,16 +36,16 @@ header {
 }
 
 #intro {
-    /* background-color: rgba(255, 255, 255, 0.53); */
+    
     background-color: rgba(177, 206, 255, 0.563);
-    padding: 16px;
+    padding: 22px;
 }
 
 #introText {
     
     font-weight: 400;
 }
-
+/* card controls */
 .card {
     margin-bottom: 25px;
     background-color: rgb(199, 199, 199);
@@ -61,8 +56,19 @@ header {
 
 .card:hover {
     transform: scale(1.05);
-
 }
+.card:hover .card-title {
+    display: none;
+}
+.card:hover .card-main {
+    display: block;
+    
+}
+.card-main {
+    display: none;
+}
+
+/* card classes for sizing */
 .port1 {
     height: 450px;
 }
